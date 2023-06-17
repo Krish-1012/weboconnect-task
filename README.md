@@ -1,6 +1,9 @@
 
 # webconnect-auth-task
 in this task you will find login,signup and userslist 
+#composer update
+
+update the composer very first for download dependancy
 
 #config 
 in .env file you have to set your database credentials.
