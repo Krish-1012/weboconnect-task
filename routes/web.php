@@ -14,9 +14,7 @@ use App\Http\Controllers\UserController;
 |
 */
 
-Route::get('/', function () {
-    
-});
+Route::match(['get'],'/', [UserController::class, 'usersList']);
 
 Route::match(['get','post'],'/registration', [UserController::class, 'index']);
 Route::match(['get','post'],'/login', [UserController::class, 'login']);
